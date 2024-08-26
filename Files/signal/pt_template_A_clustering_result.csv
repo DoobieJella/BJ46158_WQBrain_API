@@ -29,53 +29,53 @@
 27,27,11034295,20000000,1804,1921,0.373,0.1065,0.0725,0.000571,1.15,2.15,2012-01-22,qAGqPLK,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_cps_best_eeps_cur_yr, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",PASS,PASS,PASS,PASS,PASS,PASS,PASS
 28,28,11114985,20000000,1812,1950,0.3579,0.1073,0.0815,0.0006,1.14,2.08,2012-01-22,LpzJJKL,"pro = oth460_es_ebit_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_cps_best_eeps_cur_yr, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",PASS,PASS,PASS,PASS,PASS,PASS,PASS
 29,29,10898588,20000000,1789,1936,0.3659,0.1052,0.0827,0.000575,1.07,1.99,2012-01-22,m879JN9,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_cps_best_eeps_cur_yr, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",PASS,PASS,PASS,PASS,PASS,PASS,PASS
-30,30,31608974,20000000,2,2,0.21,0.3174,0.4431,0.003022,0.97,0.79,2012-01-22,Opzazgq,"pro = oth460_1l_ccns;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-31,31,10369720,20000000,1216,1508,0.4555,0.1001,0.0586,0.00044,0.95,2.03,2012-01-22,wRGMeNv,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_cps_best_eeps_cur_yr, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS
-32,32,10148810,20000000,1188,1538,0.452,0.098,0.0703,0.000434,0.88,1.88,2012-01-22,17KQgGm,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_cps_best_eeps_cur_yr, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS
-33,33,24232603,20000000,3,4,0.3432,0.238,0.9447,0.001387,0.42,0.51,2012-01-22,oKGOKm5,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-34,34,19675942,20000000,3,4,0.3014,0.1933,0.9331,0.001282,0.33,0.41,2012-01-22,GwzJRA3,"pro = oth460_1l_acda;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-35,35,19207303,20000000,3,4,0.3443,0.1887,1.1808,0.001096,0.3,0.4,2012-01-22,8zJ172l,"pro = oth460_es_ebit_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-36,36,17326832,20000000,2,2,0.3294,0.1702,1.0034,0.001033,0.28,0.39,2012-01-22,adzqOaR,"pro = oth460_1l_m3r_mtn_spb_se;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-37,37,9388590,20000000,1,2,0.1394,0.0943,1.2846,0.001353,0.18,0.22,2012-01-22,JpzKNJA,"pro = oth460_1l_ccns;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-38,38,12681896,20000000,2,2,0.3182,0.1246,1.8309,0.000783,0.17,0.27,2012-01-22,QazLoXr,"pro = oth460_1l_fbds;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-39,39,6132267,20000000,3,4,0.2008,0.0602,1.0115,0.0006,0.07,0.12,2012-01-22,vLGgQqr,"pro = oth460_1l_acda;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-40,40,3490660,20000000,2,3,0.2448,0.0343,1.0097,0.00028,0.03,0.08,2012-01-22,wRGMOad,"pro = oth460_1l_m3r_mtn_spb_se;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-41,41,1767357,20000000,3,4,0.2479,0.0174,1.7041,0.00014,0.01,0.04,2012-01-22,07gv7bK,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-42,42,420849,20000000,2,3,0.2352,0.0041,1.7225,3.5e-05,0.0,0.01,2012-01-22,6w0v2vE,"pro = oth460_1l_fbds;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-43,43,-8775803,20000000,2,2,0.3105,-0.0863,1.1396,-0.000556,-0.09,-0.18,2012-01-22,Wpz6YXZ,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-44,44,-11880270,20000000,2,2,0.3177,-0.1167,1.6488,-0.000735,-0.16,-0.26,2012-01-22,07gvvYv,"pro = oth460_1l_fbbs;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-45,45,-12660789,20000000,4,4,0.2356,-0.1244,2.1167,-0.001056,-0.18,-0.25,2012-01-22,z9GpQeE,"pro = oth460_es_ebit_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-46,46,-19730610,20000000,3,3,0.2251,-0.1938,2.4391,-0.001722,-0.39,-0.42,2012-01-22,g1GpkO0,"pro = oth460_1l_fbbs;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-47,47,-24308368,20000000,2,3,0.2341,-0.239,2.4308,-0.002041,-0.5,-0.49,2012-01-22,oKGMPz2,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_dps_best_crncy_iso, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,FAIL,FAIL,FAIL,PASS,PASS
-48,48,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,ngqMY8a,"pro = oth460_1l_m3r_mtn_spb_se;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-49,49,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,9wMLbp9,"pro = oth460_1l_m3r_mtn_spb_se;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-50,50,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,8zJd7Wz,"pro = oth460_1l_m3r_mtn_spb_se;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-51,51,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,37PZ3K0,"pro = oth460_1l_m3r_mtn_spb_se;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-52,52,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,QazLaGW,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-53,53,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,adzqd7W,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-54,54,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,6w0vwjO,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-55,55,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,Xpz58k0,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-56,56,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,vLG3YGA,"pro = oth460_1l_fbds;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-57,57,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,eOGo1vO,"pro = oth460_1l_fbds;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-58,58,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,ZpzeXNZ,"pro = oth460_1l_fbds;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-59,59,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,ngqMXRq,"pro = oth460_1l_fbds;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-60,60,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,37PZmYN,"pro = oth460_1l_fbbs;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-61,61,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,GwzpjYo,"pro = oth460_1l_fbbs;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-62,62,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,dxzLkXj,"pro = oth460_1l_fbbs;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-63,63,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,276d8zZ,"pro = oth460_1l_fbbs;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-64,64,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,bLzEZbR,"pro = oth460_es_ebit_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-65,65,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,OpzaeoY,"pro = oth460_es_ebit_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-66,66,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,9wM0oR9,"pro = oth460_es_ebit_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-67,67,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,dxzLqxg,"pro = oth460_es_ebit_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-68,68,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,17KEoPm,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-69,69,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,5w5WLe1,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-70,70,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,276dveP,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-71,71,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,jZGmgqe,"pro = oth460_es_roe_fy1_d1m_l1;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-72,72,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,9wM0EQ1,"pro = oth460_1l_ccns;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-73,73,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,LpzJ5e6,"pro = oth460_1l_ccns;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-74,74,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,EwzJpMJ,"pro = oth460_1l_ccns;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-75,75,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,GwzJbN5,"pro = oth460_1l_ccns;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-76,76,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,QazXgKQ,"pro = oth460_1l_acda;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-77,77,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,jZGmMPZ,"pro = oth460_1l_acda;stock = ts_zscore(ts_backfill(anl69_cpss_best_cur_fiscal_year_period, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-78,78,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,07gvagv,"pro = oth460_1l_acda;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
-79,79,0,0,0,0,0.0,0.0,0.0,0.0,,0.0,2012-01-22,17KE2KR,"pro = oth460_1l_acda;stock = ts_zscore(ts_backfill(anl69_saless_expected_report_dt, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",FAIL,PASS,ERROR,FAIL,ERROR,FAIL,PASS
+30,31,10369720,20000000,1216,1508,0.4555,0.1001,0.0586,0.00044,0.95,2.03,2012-01-22,wRGMeNv,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_cps_best_eeps_cur_yr, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = regression_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS
+31,32,10148810,20000000,1188,1538,0.452,0.098,0.0703,0.000434,0.88,1.88,2012-01-22,17KQgGm,"pro = oth460_1l_m1r_1yf_spe_se;stock = ts_zscore(ts_backfill(anl69_cps_best_eeps_cur_yr, 21),21);factor = group_zscore(ts_ir(returns, 252), industry);alpha = vector_neut(stock, factor);trade_when(pro<=0.5, alpha, pro>0.5)",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
