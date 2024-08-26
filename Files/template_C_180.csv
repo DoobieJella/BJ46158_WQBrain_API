@@ -1,0 +1,406 @@
+	results
+0	"{'alpha_id': 'EwzMZaP', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_call_180, implied_volatility_mean_skew_180);g = bucket(rank(implied_volatility_call_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  3472471  20000000       1591        1518    0.2484   0.0348    0.1996   
+
+    margin  fitness  sharpe   startDate alpha_id  
+0  0.00028     0.15    0.39  2012-01-22  EwzMZaP  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25  0.3900   
+1              LOW_FITNESS     FAIL   1.00  0.1500   
+2             LOW_TURNOVER     PASS   0.01  0.2484   
+3            HIGH_TURNOVER     PASS   0.70  0.2484   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     PASS   0.17  0.2700   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  EwzMZaP  
+1                                         NaN  EwzMZaP  
+2                                         NaN  EwzMZaP  
+3                                         NaN  EwzMZaP  
+4                                         NaN  EwzMZaP  
+5                                         NaN  EwzMZaP  
+6                                         NaN  EwzMZaP  
+7                                         NaN  EwzMZaP  
+8                                         NaN  EwzMZaP  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  EwzMZaP  , 'train': None, 'test': None}"
+1	"{'alpha_id': 'QazA155', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_call_180, implied_volatility_put_180);g = bucket(rank(implied_volatility_call_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':         pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  15970338  20000000       1865        1244    0.2441   0.1599     0.105   
+
+    margin  fitness  sharpe   startDate alpha_id  
+0  0.00131     1.85    2.29  2012-01-22  QazA155  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     PASS   1.25  2.2900   
+1              LOW_FITNESS     PASS   1.00  1.8500   
+2             LOW_TURNOVER     PASS   0.01  0.2441   
+3            HIGH_TURNOVER     PASS   0.70  0.2441   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL   0.99  0.7300   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  QazA155  
+1                                         NaN  QazA155  
+2                                         NaN  QazA155  
+3                                         NaN  QazA155  
+4                                         NaN  QazA155  
+5                                         NaN  QazA155  
+6                                         NaN  QazA155  
+7                                         NaN  QazA155  
+8                                         NaN  QazA155  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  QazA155  , 'train': None, 'test': None}"
+2	"{'alpha_id': 'lVGYLR5', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_call_180, parkinson_volatility_180);g = bucket(rank(implied_volatility_call_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  2605134  20000000       1516        1593    0.1605   0.0261    0.1413   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000325     0.18    0.44  2012-01-22  lVGYLR5  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit     value        date  \
+0               LOW_SHARPE     FAIL   1.25  0.440000         NaN   
+1              LOW_FITNESS     FAIL   1.00  0.180000         NaN   
+2             LOW_TURNOVER     PASS   0.01  0.160500         NaN   
+3            HIGH_TURNOVER     PASS   0.70  0.160500         NaN   
+4      CONCENTRATED_WEIGHT     FAIL   0.10  0.312849  2017-09-08   
+5  LOW_SUB_UNIVERSE_SHARPE     PASS   0.19  0.710000         NaN   
+6         SELF_CORRELATION  PENDING    NaN       NaN         NaN   
+7         PROD_CORRELATION  PENDING    NaN       NaN         NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN       NaN         NaN   
+9      MATCHES_COMPETITION     PASS    NaN       NaN         NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  lVGYLR5  
+1                                         NaN  lVGYLR5  
+2                                         NaN  lVGYLR5  
+3                                         NaN  lVGYLR5  
+4                                         NaN  lVGYLR5  
+5                                         NaN  lVGYLR5  
+6                                         NaN  lVGYLR5  
+7                                         NaN  lVGYLR5  
+8                                         NaN  lVGYLR5  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  lVGYLR5  , 'train': None, 'test': None}"
+3	"{'alpha_id': 'RpzoRJ1', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(historical_volatility_180, implied_volatility_put_180);g = bucket(rank(historical_volatility_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  6670459  20000000       1652        1456    0.1616   0.0668    0.3549   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000826     0.64     1.0  2012-01-22  RpzoRJ1  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25  1.0000   
+1              LOW_FITNESS     FAIL   1.00  0.6400   
+2             LOW_TURNOVER     PASS   0.01  0.1616   
+3            HIGH_TURNOVER     PASS   0.70  0.1616   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL   0.43  0.1400   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  RpzoRJ1  
+1                                         NaN  RpzoRJ1  
+2                                         NaN  RpzoRJ1  
+3                                         NaN  RpzoRJ1  
+4                                         NaN  RpzoRJ1  
+5                                         NaN  RpzoRJ1  
+6                                         NaN  RpzoRJ1  
+7                                         NaN  RpzoRJ1  
+8                                         NaN  RpzoRJ1  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  RpzoRJ1  , 'train': None, 'test': None}"
+4	"{'alpha_id': 'eOGP77J', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(historical_volatility_180, parkinson_volatility_180);g = bucket(rank(historical_volatility_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  3571526  20000000       1494        1614    0.1326   0.0358    0.2546   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000539     0.35    0.67  2012-01-22  eOGP77J  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25  0.6700   
+1              LOW_FITNESS     FAIL   1.00  0.3500   
+2             LOW_TURNOVER     PASS   0.01  0.1326   
+3            HIGH_TURNOVER     PASS   0.70  0.1326   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     PASS   0.29  0.7300   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  eOGP77J  
+1                                         NaN  eOGP77J  
+2                                         NaN  eOGP77J  
+3                                         NaN  eOGP77J  
+4                                         NaN  eOGP77J  
+5                                         NaN  eOGP77J  
+6                                         NaN  eOGP77J  
+7                                         NaN  eOGP77J  
+8                                         NaN  eOGP77J  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  eOGP77J  , 'train': None, 'test': None}"
+5	"{'alpha_id': '37POqqN', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_call_180, implied_volatility_mean_180);g = bucket(rank(implied_volatility_call_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':         pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  15935825  20000000       1872        1237    0.2445   0.1595    0.1076   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.001305     1.83    2.26  2012-01-22  37POqqN  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     PASS   1.25  2.2600   
+1              LOW_FITNESS     PASS   1.00  1.8300   
+2             LOW_TURNOVER     PASS   0.01  0.2445   
+3            HIGH_TURNOVER     PASS   0.70  0.2445   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL   0.98  0.6900   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  37POqqN  
+1                                         NaN  37POqqN  
+2                                         NaN  37POqqN  
+3                                         NaN  37POqqN  
+4                                         NaN  37POqqN  
+5                                         NaN  37POqqN  
+6                                         NaN  37POqqN  
+7                                         NaN  37POqqN  
+8                                         NaN  37POqqN  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  37POqqN  , 'train': None, 'test': None}"
+6	"{'alpha_id': '07gLOzp', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(historical_volatility_180, implied_volatility_call_180);g = bucket(rank(historical_volatility_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':      pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  67564  20000000       1609        1500    0.1599   0.0007    0.4227   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000008      0.0    0.01  2012-01-22  07gLOzp  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25  0.0100   
+1              LOW_FITNESS     FAIL   1.00  0.0000   
+2             LOW_TURNOVER     PASS   0.01  0.1599   
+3            HIGH_TURNOVER     PASS   0.70  0.1599   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL   0.00 -0.1400   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  07gLOzp  
+1                                         NaN  07gLOzp  
+2                                         NaN  07gLOzp  
+3                                         NaN  07gLOzp  
+4                                         NaN  07gLOzp  
+5                                         NaN  07gLOzp  
+6                                         NaN  07gLOzp  
+7                                         NaN  07gLOzp  
+8                                         NaN  07gLOzp  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  07gLOzp  , 'train': None, 'test': None}"
+7	"{'alpha_id': '9wM3ZRo', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(historical_volatility_180, implied_volatility_mean_180);g = bucket(rank(historical_volatility_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  3478437  20000000       1622        1487     0.155   0.0348    0.3932   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000449     0.25    0.53  2012-01-22  9wM3ZRo  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit  value  \
+0               LOW_SHARPE     FAIL   1.25  0.530   
+1              LOW_FITNESS     FAIL   1.00  0.250   
+2             LOW_TURNOVER     PASS   0.01  0.155   
+3            HIGH_TURNOVER     PASS   0.70  0.155   
+4      CONCENTRATED_WEIGHT     PASS    NaN    NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL   0.23 -0.040   
+6         SELF_CORRELATION  PENDING    NaN    NaN   
+7         PROD_CORRELATION  PENDING    NaN    NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN    NaN   
+9      MATCHES_COMPETITION     PASS    NaN    NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  9wM3ZRo  
+1                                         NaN  9wM3ZRo  
+2                                         NaN  9wM3ZRo  
+3                                         NaN  9wM3ZRo  
+4                                         NaN  9wM3ZRo  
+5                                         NaN  9wM3ZRo  
+6                                         NaN  9wM3ZRo  
+7                                         NaN  9wM3ZRo  
+8                                         NaN  9wM3ZRo  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  9wM3ZRo  , 'train': None, 'test': None}"
+8	"{'alpha_id': '276x8Kx', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(historical_volatility_180, implied_volatility_mean_skew_180);g = bucket(rank(historical_volatility_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  6326580  20000000       1549        1559    0.2097   0.0633    0.1472   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000604     0.47    0.85  2012-01-22  276x8Kx  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25  0.8500   
+1              LOW_FITNESS     FAIL   1.00  0.4700   
+2             LOW_TURNOVER     PASS   0.01  0.2097   
+3            HIGH_TURNOVER     PASS   0.70  0.2097   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     PASS   0.37  0.5100   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  276x8Kx  
+1                                         NaN  276x8Kx  
+2                                         NaN  276x8Kx  
+3                                         NaN  276x8Kx  
+4                                         NaN  276x8Kx  
+5                                         NaN  276x8Kx  
+6                                         NaN  276x8Kx  
+7                                         NaN  276x8Kx  
+8                                         NaN  276x8Kx  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  276x8Kx  , 'train': None, 'test': None}"
+9	"{'alpha_id': 'roGwgYm', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_mean_180, implied_volatility_mean_skew_180);g = bucket(rank(implied_volatility_mean_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  1982050  20000000       1585        1524     0.239   0.0198    0.2314   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000166     0.07    0.23  2012-01-22  roGwgYm  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit  value  \
+0               LOW_SHARPE     FAIL   1.25  0.230   
+1              LOW_FITNESS     FAIL   1.00  0.070   
+2             LOW_TURNOVER     PASS   0.01  0.239   
+3            HIGH_TURNOVER     PASS   0.70  0.239   
+4      CONCENTRATED_WEIGHT     PASS    NaN    NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     PASS   0.10  0.380   
+6         SELF_CORRELATION  PENDING    NaN    NaN   
+7         PROD_CORRELATION  PENDING    NaN    NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN    NaN   
+9      MATCHES_COMPETITION     PASS    NaN    NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  roGwgYm  
+1                                         NaN  roGwgYm  
+2                                         NaN  roGwgYm  
+3                                         NaN  roGwgYm  
+4                                         NaN  roGwgYm  
+5                                         NaN  roGwgYm  
+6                                         NaN  roGwgYm  
+7                                         NaN  roGwgYm  
+8                                         NaN  roGwgYm  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  roGwgYm  , 'train': None, 'test': None}"
+10	"{'alpha_id': 'LpzwajL', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_mean_180, implied_volatility_put_180);g = bucket(rank(implied_volatility_mean_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':         pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  15901632  20000000       1823        1285      0.24   0.1592     0.063   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.001327     2.09    2.57  2012-01-22  LpzwajL  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit  value  \
+0               LOW_SHARPE     PASS   1.25   2.57   
+1              LOW_FITNESS     PASS   1.00   2.09   
+2             LOW_TURNOVER     PASS   0.01   0.24   
+3            HIGH_TURNOVER     PASS   0.70   0.24   
+4      CONCENTRATED_WEIGHT     PASS    NaN    NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL   1.11   0.87   
+6         SELF_CORRELATION  PENDING    NaN    NaN   
+7         PROD_CORRELATION  PENDING    NaN    NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN    NaN   
+9      MATCHES_COMPETITION     PASS    NaN    NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  LpzwajL  
+1                                         NaN  LpzwajL  
+2                                         NaN  LpzwajL  
+3                                         NaN  LpzwajL  
+4                                         NaN  LpzwajL  
+5                                         NaN  LpzwajL  
+6                                         NaN  LpzwajL  
+7                                         NaN  LpzwajL  
+8                                         NaN  LpzwajL  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  LpzwajL  , 'train': None, 'test': None}"
+11	"{'alpha_id': 'YpzOKrJ', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_mean_180, parkinson_volatility_180);g = bucket(rank(implied_volatility_mean_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':      pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  40048  20000000       1487        1621    0.1487   0.0004    0.2146   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000005      0.0    0.01  2012-01-22  YpzOKrJ  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25  0.0100   
+1              LOW_FITNESS     FAIL   1.00  0.0000   
+2             LOW_TURNOVER     PASS   0.01  0.1487   
+3            HIGH_TURNOVER     PASS   0.70  0.1487   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     PASS   0.00  0.6300   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  YpzOKrJ  
+1                                         NaN  YpzOKrJ  
+2                                         NaN  YpzOKrJ  
+3                                         NaN  YpzOKrJ  
+4                                         NaN  YpzOKrJ  
+5                                         NaN  YpzOKrJ  
+6                                         NaN  YpzOKrJ  
+7                                         NaN  YpzOKrJ  
+8                                         NaN  YpzOKrJ  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  YpzOKrJ  , 'train': None, 'test': None}"
+12	"{'alpha_id': 'YpzOKJW', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_mean_skew_180, implied_volatility_put_180);g = bucket(rank(implied_volatility_mean_skew_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':       pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0 -938738  20000000       1493        1615     0.331  -0.0094    0.4417   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0 -0.000057    -0.02   -0.12  2012-01-22  YpzOKJW  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit  value  \
+0               LOW_SHARPE     FAIL   1.25 -0.120   
+1              LOW_FITNESS     FAIL   1.00 -0.020   
+2             LOW_TURNOVER     PASS   0.01  0.331   
+3            HIGH_TURNOVER     PASS   0.70  0.331   
+4      CONCENTRATED_WEIGHT     PASS    NaN    NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL  -0.05 -0.380   
+6         SELF_CORRELATION  PENDING    NaN    NaN   
+7         PROD_CORRELATION  PENDING    NaN    NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN    NaN   
+9      MATCHES_COMPETITION     PASS    NaN    NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  YpzOKJW  
+1                                         NaN  YpzOKJW  
+2                                         NaN  YpzOKJW  
+3                                         NaN  YpzOKJW  
+4                                         NaN  YpzOKJW  
+5                                         NaN  YpzOKJW  
+6                                         NaN  YpzOKJW  
+7                                         NaN  YpzOKJW  
+8                                         NaN  YpzOKJW  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  YpzOKJW  , 'train': None, 'test': None}"
+13	"{'alpha_id': 'RpzoQKo', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_mean_skew_180, parkinson_volatility_180);g = bucket(rank(implied_volatility_mean_skew_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0  1247979  20000000       1498        1610    0.3319   0.0125    0.2931   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0  0.000075     0.03    0.17  2012-01-22  RpzoQKo  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25  0.1700   
+1              LOW_FITNESS     FAIL   1.00  0.0300   
+2             LOW_TURNOVER     PASS   0.01  0.3319   
+3            HIGH_TURNOVER     PASS   0.70  0.3319   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     FAIL   0.07 -0.2200   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  RpzoQKo  
+1                                         NaN  RpzoQKo  
+2                                         NaN  RpzoQKo  
+3                                         NaN  RpzoQKo  
+4                                         NaN  RpzoQKo  
+5                                         NaN  RpzoQKo  
+6                                         NaN  RpzoQKo  
+7                                         NaN  RpzoQKo  
+8                                         NaN  RpzoQKo  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  RpzoQKo  , 'train': None, 'test': None}"
+14	"{'alpha_id': '9wM313o', 'simulate_data': {'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 1, 'decay': 0, 'neutralization': 'FAST', 'truncation': 0.08, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'x = regression_neut(implied_volatility_put_180, parkinson_volatility_180);g = bucket(rank(implied_volatility_put_180), range = ""0, 1, 0.1"") ;signal = group_neutralize(x,g);ts_backfill(ts_decay_linear(signal, 15), 63)'}, 'is_stats':        pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0 -3189649  20000000       1462        1647    0.1546  -0.0319    0.4176   
+
+     margin  fitness  sharpe   startDate alpha_id  
+0 -0.000413    -0.25   -0.54  2012-01-22  9wM313o  , 'pnl': None, 'stats': None, 'is_tests':                       name   result  limit   value  \
+0               LOW_SHARPE     FAIL   1.25 -0.5400   
+1              LOW_FITNESS     FAIL   1.00 -0.2500   
+2             LOW_TURNOVER     PASS   0.01  0.1546   
+3            HIGH_TURNOVER     PASS   0.70  0.1546   
+4      CONCENTRATED_WEIGHT     PASS    NaN     NaN   
+5  LOW_SUB_UNIVERSE_SHARPE     PASS  -0.23  0.4600   
+6         SELF_CORRELATION  PENDING    NaN     NaN   
+7         PROD_CORRELATION  PENDING    NaN     NaN   
+8       REGULAR_SUBMISSION  PENDING    NaN     NaN   
+9      MATCHES_COMPETITION     PASS    NaN     NaN   
+
+                                 competitions alpha_id  
+0                                         NaN  9wM313o  
+1                                         NaN  9wM313o  
+2                                         NaN  9wM313o  
+3                                         NaN  9wM313o  
+4                                         NaN  9wM313o  
+5                                         NaN  9wM313o  
+6                                         NaN  9wM313o  
+7                                         NaN  9wM313o  
+8                                         NaN  9wM313o  
+9  [{'id': 'challenge', 'name': 'Challenge'}]  9wM313o  , 'train': None, 'test': None}"
