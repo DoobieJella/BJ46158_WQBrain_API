@@ -1,0 +1,2 @@
+expression
+"sig_pre_0 = group_zscore(ts_zscore(ts_backfill(anl69_epss_best_eeps_cur_yr, 21), 21), industry);factor_pre_0 = group_zscore(ts_ir(returns, 252), industry);value_pre_0 = floor(rank(fnd28_value_05480/close)*4.99);signal_pre_0 = group_neutralize(sig_pre_0, value_pre_0 *factor_pre_0)"

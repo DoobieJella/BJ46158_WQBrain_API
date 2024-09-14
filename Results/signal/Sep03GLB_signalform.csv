@@ -1,0 +1,6 @@
+expression
+"group_Sep03GLB_0 = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;signal_Sep03GLB_0 = group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group_Sep03GLB_0))"
+"group_Sep03GLB_1 = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;signal_Sep03GLB_1 = group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group_Sep03GLB_1))"
+"group_Sep03GLB_2 = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;signal_Sep03GLB_2 = group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group_Sep03GLB_2))"
+"group_Sep03GLB_3 = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;signal_Sep03GLB_3 = group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group_Sep03GLB_3))"
+"group_Sep03GLB_4 = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;signal_Sep03GLB_4 = group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group_Sep03GLB_4))"

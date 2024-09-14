@@ -1,0 +1,21 @@
+,pnl,book_size,long_count,short_count,turnover,returns,drawdown,margin,fitness,sharpe,start_date,alpha_id,expression,concentrated_weight,high_turnover,is_ladder_sharpe,low_fitness,low_sharpe,low_sub_universe_sharpe,low_turnover
+0,3622137,20000000,4074,3938,0.0266,0.035,0.026,0.002626,1.21,2.29,2012-01-22,EwjlvM9,"
+group = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;
+group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group))
+",PASS,PASS,PASS,PASS,PASS,PASS,PASS
+1,3621977,20000000,4074,3938,0.0266,0.035,0.026,0.002626,1.21,2.29,2012-01-22,AwplN3X,"
+group = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;
+group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group))
+",PASS,PASS,PASS,PASS,PASS,PASS,PASS
+2,3577008,20000000,4074,3937,0.026,0.0345,0.0264,0.002656,1.19,2.26,2012-01-22,ad07bXR,"
+group = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;
+group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group))
+",PASS,PASS,PASS,PASS,PASS,PASS,PASS
+3,3559172,20000000,4074,3937,0.0257,0.0344,0.0267,0.002676,1.18,2.24,2012-01-22,Xp379Yx,"
+group = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;
+group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group))
+",PASS,PASS,PASS,PASS,PASS,PASS,PASS
+4,3545713,20000000,4074,3936,0.0254,0.0342,0.0271,0.002694,1.17,2.23,2012-01-22,bLmj6Aq,"
+group = (country+1)*group_max(pv13_52_minvol_1m_all_delay_1_sector, market) + pv13_52_minvol_1m_all_delay_1_sector;
+group_neutralize(ts_scale(group_backfill(fnd23_intfvalld1_ecns, industry, 252, std=1), 252), densify(group))
+",PASS,PASS,PASS,PASS,PASS,PASS,PASS

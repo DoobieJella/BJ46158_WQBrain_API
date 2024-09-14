@@ -1,0 +1,69 @@
+,pnl,book_size,long_count,short_count,turnover,returns,drawdown,margin,fitness,sharpe,start_date,alpha_id,expression,concentrated_weight,high_turnover,is_ladder_sharpe,low_fitness,low_returns,low_robust_universe_returns,low_robust_universe_sharpe,low_sharpe,low_sub_universe_sharpe,low_turnover
+0,7501147,20000000,629,621,0.0511,0.0778,0.1159,0.003046,1.45,1.84,2012-01-22,Xp37qo5,"
+roa = group_zscore(fnd72_s_pit_or_cf_q_cf_net_inc*2/(assets+last_diff_value(assets,300)),sector);
+
+pb = group_zscore(mdl175_bp,sector);
+
+ITR = group_zscore(inventory_turnover,sector);
+
+DtA = group_zscore(mdl175_debtsassetratio,sector);
+
+WAtA = group_zscore(mdl175_workingcapital/assets,sector);
+
+NAYOY = group_zscore(mdl175_netassetgrowrate,sector);
+
+int2A = group_zscore(mdl175_intangibleassetratio,sector);
+
+rank(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(roa,pb),ITR),DtA),WAtA),NAYOY),int2A),log(cap)))
+",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS,FAIL,PASS,PASS
+1,7258808,20000000,629,621,0.0481,0.0753,0.1191,0.003128,1.38,1.78,2012-01-22,qAajboA,"
+roa = group_zscore(fnd72_s_pit_or_cf_q_cf_net_inc*2/(assets+last_diff_value(assets,300)),sector);
+
+pb = group_zscore(mdl175_bp,sector);
+
+ITR = group_zscore(inventory_turnover,sector);
+
+DtA = group_zscore(mdl175_debtsassetratio,sector);
+
+WAtA = group_zscore(mdl175_workingcapital/assets,sector);
+
+NAYOY = group_zscore(mdl175_netassetgrowrate,sector);
+
+int2A = group_zscore(mdl175_intangibleassetratio,sector);
+
+rank(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(roa,pb),ITR),DtA),WAtA),NAYOY),int2A),log(cap)))
+",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS,FAIL,PASS,PASS
+2,7053879,20000000,630,621,0.0461,0.0731,0.1213,0.003173,1.32,1.73,2012-01-22,Awpl6Ml,"
+roa = group_zscore(fnd72_s_pit_or_cf_q_cf_net_inc*2/(assets+last_diff_value(assets,300)),sector);
+
+pb = group_zscore(mdl175_bp,sector);
+
+ITR = group_zscore(inventory_turnover,sector);
+
+DtA = group_zscore(mdl175_debtsassetratio,sector);
+
+WAtA = group_zscore(mdl175_workingcapital/assets,sector);
+
+NAYOY = group_zscore(mdl175_netassetgrowrate,sector);
+
+int2A = group_zscore(mdl175_intangibleassetratio,sector);
+
+rank(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(roa,pb),ITR),DtA),WAtA),NAYOY),int2A),log(cap)))
+",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS,FAIL,PASS,PASS
+3,6875026,20000000,630,621,0.0446,0.0713,0.1224,0.003198,1.27,1.68,2012-01-22,jZpjLpZ,"
+roa = group_zscore(fnd72_s_pit_or_cf_q_cf_net_inc*2/(assets+last_diff_value(assets,300)),sector);
+
+pb = group_zscore(mdl175_bp,sector);
+
+ITR = group_zscore(inventory_turnover,sector);
+
+DtA = group_zscore(mdl175_debtsassetratio,sector);
+
+WAtA = group_zscore(mdl175_workingcapital/assets,sector);
+
+NAYOY = group_zscore(mdl175_netassetgrowrate,sector);
+
+int2A = group_zscore(mdl175_intangibleassetratio,sector);
+
+rank(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(regression_neut(roa,pb),ITR),DtA),WAtA),NAYOY),int2A),log(cap)))
+",PASS,PASS,FAIL,PASS,FAIL,PASS,PASS,FAIL,PASS,PASS
